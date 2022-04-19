@@ -19,7 +19,7 @@ Command diatas akan menjalankan REST API di port :8080 (bisa di set lewat env va
 | Route | HTTP   | Description                       |
 | ----- | ------ | --------------------------------- |
 | /     | POST   | Route used to create a new item   |
-| /:id  | GET    | Route used to get item all        |
+| / | GET    | Route used to get item all        |
 | /:id  | GET    | Route used to get item by slug    |
 | /:id  | PATCH  | Route used to update item by slug |
 | /:id  | DELETE | Route used to delete item by slug |
